@@ -16,7 +16,7 @@ It focuses on implementing algorithms learned from pseudocode using **Python** a
 
 ## 🗓️ Update — *October 15, 2025*
 
-### 🔹 Python
+### 🔹 Python (for Algorithms)
 
 Implemented the following **Simple Sorting Algorithms**:
 
@@ -24,7 +24,7 @@ Implemented the following **Simple Sorting Algorithms**:
 2. **Insertion Sort** – Ascending & Descending  
 3. **Selection Sort** – Ascending & Descending
 
-### 🔹 Java
+### 🔹 Java (for Data Structures )
 
 Added implementations related to the Java Collection Framework (including Maps).
 Contains both implementations and simplified utility functions for each data structure.
