@@ -30,6 +30,16 @@ The `DSA` directory contains the source code and documentation for the following
 ### 6. Mathematical Problems
 - **RabbitProblem.java**: Implementation of the classic rabbit population growth problem with multiple algorithmic approaches (recursive, memoization, and iterative).
 
+### 7. Sorting Algorithms
+- **BubbleSort.java**: Standard Bubble Sort implementation.
+- **OptimizedBubbleSort.java**: Bubble Sort with a flag to stop early if sorted.
+- **InsertionSort.java**: Standard Insertion Sort implementation.
+- **OptimizedInsertionSort.java**: Binary Insertion Sort (uses binary search for finding position).
+- **SelectionSort.java**: Standard Selection Sort implementation.
+- **MergeSort.java**: Recursive Merge Sort implementation (Divide and Conquer).
+- **QuickSort.java**: Recursive Quick Sort implementation (Divide and Conquer).
+- **HanoiTower.java**: Recursive solution to the Tower of Hanoi problem.
+
 ## Documentation
 
 Detailed explanations of the logic and complexity for each implementation can be found in the accompanying markdown files:
@@ -45,10 +55,18 @@ Detailed explanations of the logic and complexity for each implementation can be
 - `DSA/LinkedListStackDocs.md`
 - `DSA/LinkedListFIFOQueueDocs.md`
 - `DSA/RabbitProblemDocs.md`
+- `DSA/BubbleSortDocs.md`
+- `DSA/OptimizedBubbleSortDocs.md`
+- `DSA/InsertionSortDocs.md`
+- `DSA/OptimizedInsertionSortDocs.md`
+- `DSA/SelectionSortDocs.md`
+- `DSA/MergeSortDocs.md`
+- `DSA/QuickSortDocs.md`
+- `DSA/HanoiTowerDocs.md`
 
 ## Time Complexity Summary
 
-| Data Structure | Operation | Complexity |
+| Data Structure / Algorithm | Operation / Case | Complexity |
 |----------------|-----------|------------|
 | QueueStackPushFriendly | Enqueue | O(1) |
 | QueueStackPushFriendly | Dequeue | Amortized O(1) |
@@ -72,4 +90,12 @@ Detailed explanations of the logic and complexity for each implementation can be
 | DoublyLinkedList | Remove First | O(1) |
 | DoublyLinkedList | Remove Last | O(1) |
 | DoublyLinkedList | Access by Index | O(n) |
+| Bubble Sort | Average/Worst | O(n^2) |
+| Optimized Bubble Sort | Best Case | O(n) |
+| Insertion Sort | Average/Worst | O(n^2) |
+| Optimized Insertion Sort | Comparisons | O(n log n) |
+| Selection Sort | All Cases | O(n^2) |
+| Merge Sort | All Cases | O(n log n) |
+| Quick Sort | Average Case | O(n log n) |
+| Quick Sort | Worst Case | O(n^2) |
 ## Built by Ronith
