@@ -72,5 +72,4 @@ Detailed explanations of the logic and complexity for each implementation can be
 | DoublyLinkedList | Remove First | O(1) |
 | DoublyLinkedList | Remove Last | O(1) |
 | DoublyLinkedList | Access by Index | O(n) |
-
 ## Built by Ronith
