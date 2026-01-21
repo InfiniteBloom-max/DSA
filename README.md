@@ -38,7 +38,12 @@ The `DSA` directory contains the source code and documentation for the following
 - **SelectionSort.java**: Standard Selection Sort implementation.
 - **MergeSort.java**: Recursive Merge Sort implementation (Divide and Conquer).
 - **QuickSort.java**: Recursive Quick Sort implementation (Divide and Conquer).
+- **OptimizedQuickSort.java**: Quick Sort with randomized pivot and 3-way partitioning.
 - **HanoiTower.java**: Recursive solution to the Tower of Hanoi problem.
+
+### 8. Trees
+- **BinarySearchTree.java**: Basic Binary Search Tree (BST) implementation.
+- **AVLTree.java**: Self-balancing Binary Search Tree (AVL Tree) implementation.
 
 ## Documentation
 
@@ -62,7 +67,10 @@ Detailed explanations of the logic and complexity for each implementation can be
 - `DSA/SelectionSortDocs.md`
 - `DSA/MergeSortDocs.md`
 - `DSA/QuickSortDocs.md`
+- `DSA/OptimizedQuickSortDocs.md`
 - `DSA/HanoiTowerDocs.md`
+- `DSA/BinarySearchTreeDocs.md`
+- `DSA/AVLTreeDocs.md`
 
 ## Time Complexity Summary
 
@@ -98,4 +106,7 @@ Detailed explanations of the logic and complexity for each implementation can be
 | Merge Sort | All Cases | O(n log n) |
 | Quick Sort | Average Case | O(n log n) |
 | Quick Sort | Worst Case | O(n^2) |
+| Optimized Quick Sort | Average Case | O(n log n) |
+| Binary Search Tree | Search/Insert | O(h) |
+| AVL Tree | Search/Insert | O(log n) |
 ## Built by Ronith
